@@ -1,0 +1,63 @@
+* {
+  margin-top: 0;
+}
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: 0 -100px;
+  background-repeat: no-repeat;
+  color: #ddd;
+  font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana,
+    sans-serif;
+  line-height: 1.5;
+}
+#main {
+  max-width: 1000px;
+  background-color: rgba(20, 20, 20, 0.8);
+  margin-left: 1rem;
+}
+#signup-form {
+  width: 650px;
+  margin: auto;
+  padding-top: 2rem;
+}
+h1 {
+  font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 44px;
+  text-align: center;
+}
+.block {
+  display: block;
+}
+.block.reset-input {
+  background-color: inherit;
+  color: inherit;
+  border: #333 solid 1px;
+  margin: 0.5rem 0 1rem 0;
+  line-height: 2.5;
+  width: 100%;
+}
+#submit {
+  display: flex;
+  border: none;
+}
+button {
+  width: 150px;
+  height: 50px;
+  background-color: inherit;
+  color: inherit;
+  border: #333 solid 1px;
+  margin-right: 50px;
+}
+input[type="checkbox"] {
+  margin-right: 1rem;
+}
+input:focus {
+  border-color: aqua;
+  padding: 0 10px;
+}
+footer {
+    font-size:0.8rem;
+    padding-left: 1rem;
+}
